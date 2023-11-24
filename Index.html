@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body class="bg-white">
+    <!-- nav content -->
+    <nav class="bg-white-500 w-full z-10 shadow-lg p-5 fixed bg-white top-0">
+        <div class="container mx-auto flex items-center justify-between">
+
+            <!-- Logo -->
+            <a href=""  class="text-2xl font-bold text-blue-500"><img src="images/l2.png" height="120px" width="120px" alt=""></a>
+
+            <a href=""  class="text-2xl font-bold text-blue-500"><img src="images/c3.png" height="60px" width="190px" alt=""></a>
+
+            <!-- Mobile Menu Icon -->
+            <div class="md:hidden">
+                <button class="text-gray-700 hover:text-gray-900 focus:outline-none">
+                    <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex space-x-4">
+                <a href="#" class="text-gray-700 hover:text-gray-900">Home</a>
+                <a href="#" class="text-gray-700 hover:text-gray-900">About</a>
+                <a href="#" class="text-gray-700 hover:text-gray-900">Services</a>
+                <a href="#" class="text-gray-700 hover:text-gray-900">Contact</a>
+            </div>
+
+        </div>
+
+    </nav>
+
+
+  <!-- Hero Section -->
+  <header class="bg-cover bg-center h-96 relative flex items-center text-white"
+  style="background-image: url('images/pic6\ \(1\).jpg');">
+  <div class="absolute inset-0 bg-black opacity-50"></div>
+  <div class="container mx-auto text-center relative z-10">
+      <h1 class="text-4xl lg:text-6xl font-semibold leading-tight">Delicious Kenyan Baked Foods</h1>
+      <p class="text-lg lg:text-xl mt-4">Handcrafted with love and passion.</p>
+  </div>
+</header>
+
+<!-- Menu Section -->
+<section id="menu" class="py-16 d-flex">
+  <div class="container mx-auto text-center">
+      <h2 class="text-3xl lg:text-4xl font-semibold mb-8">Our Menu</h2>
+
+      <!-- Add your menu items here -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div class="bg-white p-6 rounded-lg shadow ">
+            <img src="images/pi1.jpg" class="h-72 w-96 rounded-md">
+              <h3 class="text-xl font-semibold mb-2">Item 1</h3>
+              <p class="text-gray-600">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa commodi sit ipsa consectetur dolorum? Eos delectus quidem tenetur quo pariatur.</p>
+              <p class="mt-4 text-red-500 font-bold">$5.99</p>
+          </div>
+
+          <div class="bg-white p-6 rounded-lg shadow ">
+            <img src="images/pi3.jpg" class="h-72 w-96 rounded-md">
+              <h3 class="text-xl font-semibold mb-2">Item 1</h3>
+              <p class="text-gray-600">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa commodi sit ipsa consectetur dolorum? Eos delectus quidem tenetur quo pariatur.</p>
+              <p class="mt-4 text-red-500 font-bold">$5.99</p>
+          </div>
+
+          <div class="bg-white p-6 rounded-lg shadow ">
+            <img src="images/j3.jpg" class="h-72 w-96 rounded-md">
+              <h3 class="text-xl font-semibold mb-2">Item 1</h3>
+              <p class="text-gray-600">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa commodi sit ipsa consectetur dolorum? Eos delectus quidem tenetur quo pariatur.</p>
+              <p class="mt-4 text-red-500 font-bold">$5.99</p>
+          </div>
+
+          <div class="bg-white p-6 rounded-lg shadow ">
+            <img src="images/n1 (1).jpg" class="h-72 w-96 rounded-md">
+              <h3 class="text-xl font-semibold mb-2">Item 1</h3>
+              <p class="text-gray-600">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa commodi sit ipsa consectetur dolorum? Eos delectus quidem tenetur quo pariatur.</p>
+              <p class="mt-4 text-red-500 font-bold">$5.99</p>
+          </div>
+
+          <div class="bg-white p-6 rounded-lg shadow ">
+            <img src="images/pi.jpg" class="h-72 w-96 rounded-md">
+              <h3 class="text-xl font-semibold mb-2">Item 1</h3>
+              <p class="text-gray-600">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa commodi sit ipsa consectetur dolorum? Eos delectus quidem tenetur quo pariatur.</p>
+              <p class="mt-4 text-red-500 font-bold">$5.99</p>
+          </div>
+
+          <div class="bg-white p-6 rounded-lg shadow ">
+            <img src="images/pi4.jpg" class="h-72 w-96 rounded-md">
+              <h3 class="text-xl font-semibold mb-2">Item 1</h3>
+              <p class="text-gray-600">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa commodi sit ipsa consectetur dolorum? Eos delectus quidem tenetur quo pariatur.</p>
+              <p class="mt-4 text-red-500 font-bold">$5.99</p>
+          </div>
+
+        
+
+      
+          <!-- Repeat similar structure for other menu items -->
+      </div>
+      </div>
+</section>
+
+<!-- About Us Section -->
+<section id="about" class="bg-white py-16">
+    <h2 class="text-3xl lg:text-4xl font-semibold mb-8 text-center">About Us</h2>
+  <div class="min-h-screen flex items-center justify-center">
+
+    <div class="bg-white shadow-md rounded-lg p-8 md:flex md:space-x-8">
+
+        <!-- Text Content -->
+        <div class="md:w-1/2">
+           
+
+            <h4 class="text-4xl font-semibold mb-4">The art of baking</h4>
+
+
+            <p class="text-gray-600 mb-10 text-2xl">
+                Baking up a success in the cake business and a happier day, just for YOU!!
+                <br><br>
+
+
+                My love for baking actually started when we opened Tiramisu Bakery 8 years ago. I literally had to start from scratch and teach myself as I went along, and the more requests I got for cakes, the more I ventured into learning, researching, and to combine creativity with delicious baking.
+            </p>
+            <p class="text-gray-600 mb-10 text-2xl">
+                Why I chose to learn more on cakes than all our other delicious products? It’s because I love how a cake brings people together around a table. A cake means a gathering of family and friends, it means happy moments and memories. So, what better way to celebrate a festive occasion than with a wonderful cake?
+
+
+            </p>
+            <p class="text-gray-600 mb-10 text-2xl">
+                To me, you first eat with your eyes, and it is very important to me that the cake looks just as good as it tastes. I’m always searching for perfect versions of any recipes, so I often revisit my old recipe books, collected over the years, and I use a classic recipe as the basis for a new flavour combination and add a twist!!
+              <br><br>
+This is what I love to do.
+            </p>
+        </div>
+
+        <!-- Image Section -->
+        <div class="md:w-1/2">
+            <img src="images/a1.jpg" alt="Company Image" class="w-full h-auto rounded-md">
+        </div>
+
+    </div>
+
+</div>
+
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-16">
+  <div class="min-h-screen flex items-center justify-center">
+
+    <div class="bg-white shadow-md rounded-lg w-96 p-8">
+
+        <h2 class="text-3xl font-semibold mb-6">Contact Us</h2>
+
+        <!-- Contact Form -->
+        <form action="#" method="post">
+
+            <div class="mb-4">
+                <label for="name" class="block text-gray-600 font-medium">Name</label>
+                <input type="text" id="name" name="name" class="mt-1 p-3 w-full border-2 border-gray-300 rounded-md focus:outline-none focus:border-blue-500 transition duration-300">
+            </div>
+
+            <div class="mb-4">
+                <label for="email" class="block text-gray-600 font-medium">Email</label>
+                <input type="email" id="email" name="email" class="mt-1 p-3 w-full border-2 border-gray-300 rounded-md focus:outline-none focus:border-blue-500 transition duration-300">
+            </div>
+
+            <div class="mb-4">
+                <label for="message" class="block text-gray-600 font-medium">Message</label>
+                <textarea id="message" name="message" rows="4" class="mt-1 p-3 w-full border-2 border-gray-300 rounded-md focus:outline-none focus:border-blue-500 transition duration-300"></textarea>
+            </div>
+
+            <button type="submit" class="bg-red-500 text-white py-2 px-4 rounded-full hover:bg-blue-600 transition duration-300">Send Message</button>
+
+        </form>
+
+    </div>
+
+</div>
+</section>
+
+<!-- Footer Section -->
+<footer class="bg-black text-white py-12">
+    <div class="container mx-auto flex flex-wrap justify-between">
+        <!-- Footer Logo -->
+        <div class="w-full sm:w-1/2 md:w-1/4 lg:w-1/5 mb-6">
+            <h1 class="text-2xl font-bold"><img src="images/l1.png" height="120px" width="170px" alt=""></h1>
+            <p class="mt-2">Baking up a success in the cake business and a happier day, just for YOU!!
+            </p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="w-full sm:w-1/2 md:w-1/4 lg:w-1/5 mb-6">
+            <h2 class="text-xl font-semibold mb-4">Quick Links</h2>
+            <ul>
+                <li><a href="#" class="text-gray-300 hover:text-white">Home</a></li>
+                <li><a href="#" class="text-gray-300 hover:text-white">About</a></li>
+                <li><a href="#" class="text-gray-300 hover:text-white">Services</a></li>
+                <li><a href="#" class="text-gray-300 hover:text-white">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- Contact Information -->
+        <div class="w-full sm:w-1/2 md:w-1/4 lg:w-1/5 mb-6">
+            <h2 class="text-xl font-semibold mb-4">Contact Us</h2>
+            <p class="text-gray-300">123 Street, City</p>
+            <p class="text-gray-300">info@example.com</p>
+            <p class="text-gray-300">555-123-4567</p>
+        </div>
+
+        <!-- Social Media Links -->
+        <div class="w-full sm:w-1/2 md:w-1/4 lg:w-1/5 mb-6">
+            <h2 class="text-xl font-semibold mb-4">Follow Us</h2>
+            <div class="flex space-x-4">
+                <a href="#" class="text-gray-300 hover:text-white"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="text-gray-300 hover:text-white"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-gray-300 hover:text-white"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="text-gray-300 hover:text-white"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+  <p class="text-center bg-black text-white md-1">&copy; 2023 Your Bakery. All rights reserved.</p>
+</body>
+</html>
